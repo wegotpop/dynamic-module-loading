@@ -12,4 +12,7 @@ Running `npm start` will load a simple html page that contains the SystemJS libr
 Change the version in the json file and refresh the page.
 
 ## Versions available
-Valid versions are exactly `v1`, `v2`, `v3` at the moment. Everything else should throw an error.
+Valid versions are exactly `v1`, `v2`, `v3`, `v4` at the moment. Everything else should throw an error.
+- v1 and v2 are just a simple js function,
+- v3 is a simple react app, static assets (css and images) are loaded by default in the client
+- v4 is a react app with styled component
